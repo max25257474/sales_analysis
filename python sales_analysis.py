@@ -11,7 +11,7 @@ st.set_page_config(page_title="Аналітика продажів E-commerce", 
 st.title("Аналітика продажів E-commerce")
 
 csv_url = st.text_input("Вставте посилання на CSV з GitHub (raw):", 
-                        "https://raw.githubusercontent.com/ТВОЙ_ЮЗЕРНЕЙМ/ТВОЙ_РЕПО/main/test_sales.csv")
+                        "https://raw.githubusercontent.com/max25257474/sales_analysis/refs/heads/main/test_sales.csv")
 
 @st.cache_data
 def load_data(url):
